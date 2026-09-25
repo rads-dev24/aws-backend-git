@@ -15,7 +15,6 @@ const { commitRepo } = require("./controllers/commit.js");
 const { pullRepo } = require("./controllers/pull.js");
 const { pushRepo } = require("./controllers/push.js");
 const { revertRepo } = require("./controllers/revert.js");
-const {loveRepo} = require("./controllers/love.js");
 const mainRouter = require("./routes/main.router.js");
 
 yargs(hideBin(process.argv))
